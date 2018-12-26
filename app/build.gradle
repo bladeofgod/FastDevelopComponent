@@ -8,7 +8,12 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
     }
     buildTypes {
         release {
@@ -23,5 +28,6 @@ dependencies {
     implementation project(':modulelib')
     implementation project(':moduleres')
 
+    annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'
 
 }
