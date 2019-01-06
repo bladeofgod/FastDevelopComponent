@@ -32,14 +32,17 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
-
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
     api 'com.github.hexingbo:EasyNavigition:v1.0.1'
     api 'androidx.cardview:cardview:1.0.0'
 
     api 'androidx.recyclerview:recyclerview:1.1.0-alpha01'
+    api 'com.jude:easyrecyclerview:4.4.2'
     api 'com.alibaba:arouter-api:1.4.1'
     api 'com.zyao89:zloading:1.1.2'
     api 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+    api 'com.flyco.roundview:FlycoRoundView_Lib:1.1.2@aar'
+    api 'com.flyco.tablayout:FlycoTabLayout_Lib:1.5.0@aar'
     api 'io.reactivex.rxjava2:rxjava:2.0.0'
     api 'com.lzy.net:okserver:2.0.5'
     api 'com.lzy.net:okgo:3.0.4'
